@@ -5,3 +5,6 @@ Dockerfile: $(lib)/*.m4
 
 build: 
 	docker build --rm -t your/image .
+
+clean:
+	rm -f Dockerfile
